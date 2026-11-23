@@ -3,7 +3,7 @@
     "id": "com.wristelem.band",
     "restype": "quick_app",
     "name": "腕素",
-    "description": "手环上的元素周期表，还能算摩尔质量、求解物理公式、背化合价，离线可用。\n\n- 周期表：整张表上下左右滑，点顶上的缩略图跳到 s / d / p 区\n- 元素详情：相对原子质量（含课本取值）、常见化合价、原子结构示意图、电子排布、熔沸点、密度、电负性\n- 查元素：符号、拼音、序数都行，Fe、tie、26 都能找到铁\n- 摩尔质量：化学式专用键盘，支持括号和结晶水；算出相对分子质量和各元素质量分数，并在周期表上高亮\n- 物质的量换算：质量、物质的量、粒子数、标况体积互算\n- 高中物理：12 个专题，填几个已知量，其余自动算出；附常用物理常数\n- 背诵卡片：前 20 号元素、化合价、原子团、焰色和离子颜色、物理公式和常数，没记住的会再出\n\n不联网，不收集数据。元素数据来自 PubChem（公有领域）。\n适配小米手环 9 / 9 Pro / 10 / 10 NFC / 10 Pro / 11 / 11 NFC，各机型在官方模拟器上测过。",
+    "description": "手环上的元素周期表，还能算摩尔质量、求解物理公式、背化合价，离线可用。\n\n- 周期表：整张表的缩略图，按 s / d / p / f 分区看，或按序数从 1 号看到 118 号\n- 元素详情：相对原子质量（含课本取值）、常见化合价、原子结构示意图、电子排布、熔沸点、密度、电负性\n- 查元素：符号、拼音、序数都行，Fe、tie、26 都能找到铁\n- 摩尔质量：化学式专用键盘，支持括号和结晶水；算出相对分子质量和各元素质量分数，并在周期表上高亮\n- 物质的量换算：质量、物质的量、粒子数、标况体积互算\n- 高中物理：12 个专题，填几个已知量，其余自动算出；附常用物理常数\n- 背诵卡片：前 20 号元素、化合价、原子团、焰色和离子颜色、物理公式和常数，点一下翻面，再点下一张\n\n不联网，不收集数据。元素数据来自 PubChem（公有领域）。\n适配小米手环 9 / 9 Pro / 10 / 10 NFC / 10 Pro / 11 / 11 NFC；手环 11 真机用过，其余机型在官方模拟器上测过。",
     "preview": [
       "media/preview1.png",
       "media/preview2.png",
@@ -34,66 +34,15 @@
     }
   ],
   "downloads": {
-    "xmb10": {
-      "version": "1.0.0",
-      "file_name": "downloads/com.wristelem.band.release.1.0.0.rpk",
-      "versionCode": 1,
-      "updatelogs": [
-        {
-          "version": "1.0.0",
-          "content": "首次上架。"
-        }
-      ]
-    },
-    "xmb10nfc": {
-      "version": "1.0.0",
-      "file_name": "downloads/com.wristelem.band.release.1.0.0.rpk",
-      "versionCode": 1,
-      "updatelogs": [
-        {
-          "version": "1.0.0",
-          "content": "首次上架。"
-        }
-      ]
-    },
-    "xmb10p": {
-      "version": "1.0.0",
-      "file_name": "downloads/com.wristelem.band.release.1.0.0.rpk",
-      "versionCode": 1,
-      "updatelogs": [
-        {
-          "version": "1.0.0",
-          "content": "首次上架。"
-        }
-      ]
-    },
-    "xmb11": {
-      "version": "1.0.0",
-      "file_name": "downloads/com.wristelem.band.release.1.0.0.rpk",
-      "versionCode": 1,
-      "updatelogs": [
-        {
-          "version": "1.0.0",
-          "content": "首次上架。"
-        }
-      ]
-    },
-    "xmb11nfc": {
-      "version": "1.0.0",
-      "file_name": "downloads/com.wristelem.band.release.1.0.0.rpk",
-      "versionCode": 1,
-      "updatelogs": [
-        {
-          "version": "1.0.0",
-          "content": "首次上架。"
-        }
-      ]
-    },
     "xmb9": {
-      "version": "1.0.0",
-      "file_name": "downloads/com.wristelem.band.release.1.0.0.rpk",
-      "versionCode": 1,
+      "version": "1.1.0",
+      "file_name": "downloads/com.wristelem.band.release.1.1.0.rpk",
+      "versionCode": 2,
       "updatelogs": [
+        {
+          "version": "1.1.0",
+          "content": "首页改成功能列表，周期表按分区看，操作更简单；修复打开后手环重启、首页退不出去的问题。"
+        },
         {
           "version": "1.0.0",
           "content": "首次上架。"
@@ -101,10 +50,89 @@
       ]
     },
     "xmb9p": {
-      "version": "1.0.0",
-      "file_name": "downloads/com.wristelem.band.release.1.0.0.rpk",
-      "versionCode": 1,
+      "version": "1.1.0",
+      "file_name": "downloads/com.wristelem.band.release.1.1.0.rpk",
+      "versionCode": 2,
       "updatelogs": [
+        {
+          "version": "1.1.0",
+          "content": "首页改成功能列表，周期表按分区看，操作更简单；修复打开后手环重启、首页退不出去的问题。"
+        },
+        {
+          "version": "1.0.0",
+          "content": "首次上架。"
+        }
+      ]
+    },
+    "xmb10": {
+      "version": "1.1.0",
+      "file_name": "downloads/com.wristelem.band.release.1.1.0.rpk",
+      "versionCode": 2,
+      "updatelogs": [
+        {
+          "version": "1.1.0",
+          "content": "首页改成功能列表，周期表按分区看，操作更简单；修复打开后手环重启、首页退不出去的问题。"
+        },
+        {
+          "version": "1.0.0",
+          "content": "首次上架。"
+        }
+      ]
+    },
+    "xmb10nfc": {
+      "version": "1.1.0",
+      "file_name": "downloads/com.wristelem.band.release.1.1.0.rpk",
+      "versionCode": 2,
+      "updatelogs": [
+        {
+          "version": "1.1.0",
+          "content": "首页改成功能列表，周期表按分区看，操作更简单；修复打开后手环重启、首页退不出去的问题。"
+        },
+        {
+          "version": "1.0.0",
+          "content": "首次上架。"
+        }
+      ]
+    },
+    "xmb10p": {
+      "version": "1.1.0",
+      "file_name": "downloads/com.wristelem.band.release.1.1.0.rpk",
+      "versionCode": 2,
+      "updatelogs": [
+        {
+          "version": "1.1.0",
+          "content": "首页改成功能列表，周期表按分区看，操作更简单；修复打开后手环重启、首页退不出去的问题。"
+        },
+        {
+          "version": "1.0.0",
+          "content": "首次上架。"
+        }
+      ]
+    },
+    "xmb11": {
+      "version": "1.1.0",
+      "file_name": "downloads/com.wristelem.band.release.1.1.0.rpk",
+      "versionCode": 2,
+      "updatelogs": [
+        {
+          "version": "1.1.0",
+          "content": "首页改成功能列表，周期表按分区看，操作更简单；修复打开后手环重启、首页退不出去的问题。"
+        },
+        {
+          "version": "1.0.0",
+          "content": "首次上架。"
+        }
+      ]
+    },
+    "xmb11nfc": {
+      "version": "1.1.0",
+      "file_name": "downloads/com.wristelem.band.release.1.1.0.rpk",
+      "versionCode": 2,
+      "updatelogs": [
+        {
+          "version": "1.1.0",
+          "content": "首页改成功能列表，周期表按分区看，操作更简单；修复打开后手环重启、首页退不出去的问题。"
+        },
         {
           "version": "1.0.0",
           "content": "首次上架。"
